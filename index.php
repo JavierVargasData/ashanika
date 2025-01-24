@@ -69,7 +69,9 @@ if (isset($_GET['buscar'])) {
 
                 <input type="text" name="buscar" class="form-control" id="buscarPalabra" placeholder="Ingrese palabra en ashanika o español">
             </div>
+            <br>
             <button type="submit" class="btn btn-secondary btn-block">Buscar</button>
+            <br>
         </form>
         <br>
 
