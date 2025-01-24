@@ -1,0 +1,87 @@
+/* Centrar la tabla y otros elementos */
+.table-container,
+.container {
+    text-align: center;
+}
+
+/* Estilo para reducir el ancho de la tabla en pantallas grandes */
+.table {
+    max-width: 80%; /* Ajusta el valor según tus preferencias */
+    margin: 0 auto; /* Centra la tabla */
+}
+
+/* Estilo para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .table {
+        max-width: 100%; /* Hacer que la tabla ocupe el 100% del ancho en dispositivos móviles */
+    }
+}
+
+
+/* Estilo para reducir el ancho del campo de búsqueda */
+.form-group {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilo para mejorar la presentación del input */
+.form-control {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px; /* Ajusta el espacio interno del input según tus preferencias */
+    font-size: 16px; /* Ajusta el tamaño del texto del input según tus preferencias */
+    border: 1px solid #ccc; /* Añade un borde para mejorar la apariencia */
+    border-radius: 5px; /* Añade bordes redondeados */
+}
+
+/* Estilo adicional para mejorar la presentación del botón btn-dark */
+.btn-dark {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+p {
+    margin: 0; /* Elimina el margen superior e inferior de los párrafos */
+    padding: 0; /* Elimina cualquier relleno interno de los párrafos */
+}
+
+
+/* Estilos para el texto de los verbos */
+h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  strong {
+    color: #007bff;
+  }
+  
+  /* Estilos para las secciones de los tiempos verbales */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las formas verbales */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el modo imperativo */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+  
