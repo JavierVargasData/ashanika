@@ -4,6 +4,6 @@
 <br>
 
 
- <center><p>ashanika@gmail.com</p></center>
+ <center><p>ashanika@gmail.com </p></center>
  
 <?php include 'template/footer.php'; ?>
