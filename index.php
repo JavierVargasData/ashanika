@@ -66,8 +66,7 @@ if (isset($_GET['buscar'])) {
                 <label for="buscarPalabra">Buscar por Español o ashanika:</label>
                 <br>
                 <br>
-                <p>Por favor, ingrese la palabra en español o ashanika que desea buscar.</p>
-                
+
                 <input type="text" name="buscar" class="form-control" id="buscarPalabra" placeholder="Ingrese palabra en ashanika o español">
             </div>
             <button type="submit" class="btn btn-secondary btn-block">Buscar</button>
