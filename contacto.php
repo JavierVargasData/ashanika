@@ -4,6 +4,6 @@
 <br>
 
 
- <center><p>ashanika@gmail.com </p></center>
+<h4>Contáctanos</h4>
  
 <?php include 'template/footer.php'; ?>
